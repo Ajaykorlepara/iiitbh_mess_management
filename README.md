@@ -136,7 +136,7 @@ The application is structured as a self-contained full-stack project where Expre
    git init
    git add .
    git commit -m "IIIT Bhubaneswar Mess Management System"
-   git remote add origin https://github.com/<your-username>/iiit-bh-mess-management.git
+   git remote add origin https://github.com/Ajaykorlepara/iiitbh_mess_management.git
    git push -u origin main
    ```
 2. Log into [Render.com](https://render.com) and click **"New Web Service"**.
@@ -155,10 +155,10 @@ The application is structured as a self-contained full-stack project where Expre
 To generate the exact submission zip file required by your professor:
 
 Run the PowerShell packaging script from your project root:
-```powershell
-powershell -ExecutionPolicy Bypass -File ./package-project.ps1 -StudentID "YOUR_STUDENT_ID"
+```bash
+node package-project.js YOUR_STUDENT_ID
 ```
-*(Example: `powershell -ExecutionPolicy Bypass -File ./package-project.ps1 -StudentID "B122045"`)*
+*(Example: `node package-project.js B423032`)*
 
 This script automatically:
 1. Creates a clean directory named after your ID.
