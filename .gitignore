@@ -9,7 +9,8 @@ build/
 
 # Packaging artifacts
 *.zip
-B122045/
+B*/
+[B-Z][0-9]*/
 
 # Logs & Environment
 npm-debug.log*
