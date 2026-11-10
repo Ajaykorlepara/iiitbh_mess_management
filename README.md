@@ -53,9 +53,6 @@ The **IIIT Bhubaneswar Mess Management System** is a dynamic, full-stack web app
 - **One-Click Rebate Processing:** Wardens can review pending student leaves and approve credits directly.
 - **Pantry & Grocery Stock Tracker:** Real-time stock monitor for staples (Rice, Dal, Milk, Oil, Atta) with `Low Stock` threshold alerts.
 
-### 8. 🎬 In-App 10-Minute Presentation Assistant
-- **Built-In Presentation Mode:** Interactive slide deck with exact cues, timestamps (0:00 - 10:00), and live jump buttons to record your evaluation video directly on screen!
-
 ---
 
 ## 🏗️ Technical Architecture
@@ -116,7 +113,7 @@ Switch profiles with **1-click** from the top navigation dropdown:
 
 | Role | Name | Roll Number / ID | Hostel & Room | Highlights |
 |---|---|---|---|---|
-| **Student (Demo 1)** | Ajay Kumar | `B122045` | Kharavela A-204 | Non-Veg, active token, pending & approved rebates |
+| **Student (Demo 1)** | Ajay Korlepara | `B423032` | Kharavela A-204 | Non-Veg, active token, pending & approved rebates |
 | **Student (Demo 2)** | Priya Sharma | `B122012` | Saraswati B-108 | Pure Veg, paid bill record |
 | **Student (Demo 3)** | Rohan Das | `B122088` | Brahmaputra C-312 | Non-Veg, Inter-IIIT sports meet leave |
 | **Mess Warden / Caterer** | Mr. Ramesh Mohanty | `ADMIN01` | Staff Quarters Q-4 | Full access to Gate QR Scanner, Rebate Desk & Stock |

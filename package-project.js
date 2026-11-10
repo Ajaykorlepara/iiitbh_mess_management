@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Get student ID from arguments or prompt
-const studentId = (process.argv[2] || 'B122045').trim().toUpperCase();
+const studentId = (process.argv[2] || 'B423032').trim().toUpperCase();
 
 console.log('==========================================================');
 console.log(`📦 IIIT Bhubaneswar - IWT Project Submission Packager`);

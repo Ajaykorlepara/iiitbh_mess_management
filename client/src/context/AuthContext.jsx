@@ -11,9 +11,9 @@ export function AuthProvider({ children }) {
     // Default demo student
     return {
       id: "usr_student_1",
-      rollNumber: "B122045",
-      name: "Ajay Kumar",
-      email: "b122045@iiit-bh.ac.in",
+      rollNumber: "B423032",
+      name: "Ajay Korlepara",
+      email: "b423032@iiit-bh.ac.in",
       role: "student",
       phone: "+91 98765 43210",
       hostel: "Kharavela Hostel (KHR-A)",

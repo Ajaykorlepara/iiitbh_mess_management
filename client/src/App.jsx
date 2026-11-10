@@ -9,7 +9,6 @@ import FeedbackPage from './pages/FeedbackPage';
 import PollsPage from './pages/PollsPage';
 import NoticesPage from './pages/NoticesPage';
 import AdminDashboard from './pages/AdminDashboard';
-import PresentationTour from './components/PresentationTour';
 import { Utensils, Heart, Shield, Code, Sparkles } from 'lucide-react';
 
 function MainApp() {
@@ -33,7 +32,6 @@ function MainApp() {
           {activeTab === 'polls' && <PollsPage />}
           {activeTab === 'notices' && <NoticesPage />}
           {activeTab === 'admin' && <AdminDashboard />}
-          {activeTab === 'presentation' && <PresentationTour onJumpToTab={(tab) => setActiveTab(tab)} />}
         </main>
       </div>
 
@@ -49,23 +47,15 @@ function MainApp() {
                 IIIT Bhubaneswar Hostel Mess Management System
               </p>
               <p className="text-[11px] text-slate-500">
-                Internet & Web Technology (IWT) Course Project • Academic Evaluation Ready
+                Official Dining Services Portal • Campus Hostel Administration
               </p>
             </div>
           </div>
 
           <div className="flex items-center space-x-4 text-[11px]">
-            <button
-              onClick={() => setActiveTab('presentation')}
-              className="hover:text-amber-300 transition-colors flex items-center space-x-1 text-slate-300 font-semibold"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>10-Min Video Guide</span>
-            </button>
-            <span>•</span>
             <span className="text-slate-400">Node.js + Express + React 18 + Tailwind</span>
             <span>•</span>
-            <span className="text-emerald-400 font-semibold">Zero-Config Portability</span>
+            <span className="text-emerald-400 font-semibold">SmartMess Portal</span>
           </div>
         </div>
       </footer>

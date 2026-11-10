@@ -9,7 +9,6 @@ import {
   Vote, 
   BellRing, 
   ShieldCheck, 
-  Video, 
   UserCheck, 
   ChevronDown, 
   LogOut,
@@ -44,8 +43,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
     { id: 'feedback', label: 'Feedback', icon: MessageSquare },
     { id: 'polls', label: 'Feast Polls', icon: Vote },
     { id: 'notices', label: 'Notices', icon: BellRing },
-    ...(isAdmin ? [{ id: 'admin', label: 'Caterer Desk', icon: ShieldCheck, highlight: true }] : []),
-    { id: 'presentation', label: '10-Min Video Guide', icon: Video, badge: 'IWT Submission' }
+    ...(isAdmin ? [{ id: 'admin', label: 'Caterer Desk', icon: ShieldCheck, highlight: true }] : [])
   ];
 
   return (
@@ -71,8 +69,8 @@ export default function Navbar({ activeTab, setActiveTab }) {
                 {new Date().toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' })}
               </span>
             </div>
-            <span className="text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded text-[11px] font-semibold border border-emerald-800">
-              IWT Academic Project
+            <span className="text-emerald-300 bg-emerald-950/80 px-2.5 py-0.5 rounded text-[11px] font-semibold border border-emerald-800">
+              Official Dining Services
             </span>
           </div>
         </div>
@@ -224,7 +222,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
                   <form onSubmit={handleCustomLogin} className="flex gap-2">
                     <input
                       type="text"
-                      placeholder="e.g. B122045 or ADMIN"
+                      placeholder="e.g. B423032 or ADMIN"
                       value={customRoll}
                       onChange={(e) => setCustomRoll(e.target.value)}
                       className="flex-1 px-3 py-1.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-mono"

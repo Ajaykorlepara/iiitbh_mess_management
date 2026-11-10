@@ -245,14 +245,14 @@ export default function AdminDashboard() {
                 <span className="text-[10px] text-slate-400 uppercase font-semibold mr-1">Quick Sample:</span>
                 <button
                   type="button"
-                  onClick={() => setTokenCodeInput("IIIT-MESS-20261110-L-B122045-8941")}
+                  onClick={() => setTokenCodeInput("IIIT-MESS-20261110-L-B423032-8941")}
                   className="text-[10px] font-mono bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded text-slate-700"
                 >
-                  Ajay Kumar (Valid)
+                  Ajay Korlepara (Valid)
                 </button>
                 <button
                   type="button"
-                  onClick={() => setTokenCodeInput("IIIT-MESS-20261110-B-B122045-3129")}
+                  onClick={() => setTokenCodeInput("IIIT-MESS-20261110-B-B423032-3129")}
                   className="text-[10px] font-mono bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded text-slate-700"
                 >
                   Used Breakfast Token
