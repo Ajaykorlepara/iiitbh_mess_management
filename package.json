@@ -1,0 +1,27 @@
+{
+  "name": "iiit-bh-mess-management",
+  "version": "1.0.0",
+  "description": "Dynamic Web Application for IIIT Bhubaneswar Mess Management System - IWT Project",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "package": "node package-project.js"
+  },
+  "keywords": [
+    "iiit-bhubaneswar",
+    "mess-management",
+    "iwt-project",
+    "full-stack"
+  ],
+  "author": "IIIT Bhubaneswar Student",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
